@@ -1,7 +1,7 @@
 // src/socket.js
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:3001"; // change to your socket server
+const SOCKET_URL = "https://ebcbd6d8d74b.ngrok-free.app"; // change to your socket server
 
 // we export a singleton socket instance
 export const socket = io(SOCKET_URL, {

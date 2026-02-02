@@ -161,7 +161,7 @@ export function VoiceCall({ userId }: { userId: string }) {
         </div>
       )}
 
-      {/* Connected UI */}
+      {/* Connected UI */}  
       {callState === "connected" && (
         <div style={{ border: "2px solid blue", padding: "20px", marginBottom: "10px" }}>
           <p>🎙️ Call in progress with {recipientId || incoming?.callerId}</p>
